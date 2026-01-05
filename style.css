@@ -1,0 +1,44 @@
+h2 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 35px;
+}
+h4 {
+    font-size: 30px;
+}
+.name-of-app {
+    text-align: center;
+}
+.list-of-major-components {
+    list-style-type: none;
+    font-size: 20px;
+}
+.list-of-barbell-upper-chest-exercises {
+    list-style-type: none;
+    font-size: 20px;
+}
+.list-of-dumbbell-upper-chest-exercises {
+    list-style-type: none;
+    font-size: 20px;
+}
+.list-of-cable-machine-upper-chest-exercises {
+    list-style-type: none;
+    font-size: 20px;
+}
+.list-of-smith-machine-upper-chest-exercises {
+    list-style-type: none;
+    font-size: 20px;
+}
+.list-of-strength-machine-upper-chest-exercises {
+    list-style-type: none;
+    font-size: 20px;
+}
+.list-of-barbell-mid-lower-chest-exercises {
+    list-style-type: none;
+    font-size: 20px;
+}
+.list-of-dumbbell-mid-lower-chest-exercises {
+    list-style-type: none;
+    font-size: 20px;
+}
