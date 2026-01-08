@@ -1,8 +1,10 @@
 h2 {
     font-size: 50px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }
 h3 {
     font-size: 30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }
 .name-of-app {
     text-align: center;
@@ -11,7 +13,8 @@ h3 {
 }
 .list-of-major-components {
     list-style-type: none;
-    font-size: 20px;
+    font-size: 40px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }
 .list-of-barbell-chest-exercises {
     list-style-type: none;
