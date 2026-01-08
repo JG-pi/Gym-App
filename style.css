@@ -11,10 +11,21 @@ h3 {
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 80px;
 }
-.list-of-major-components {
-    list-style-type: none;
+.top-buttons {
+    background-color: #FAEBD7;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-buttons>button {
     font-size: 40px;
+    height: 50px;
+    width: 200px;
     font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.left-sidebar {
+    display: contents;
+    padding-left: 20%;
 }
 .list-of-barbell-chest-exercises {
     list-style-type: none;
@@ -80,27 +91,30 @@ h3 {
     list-style-type: none;
     font-size: 20px;
 }
-.list-of-dumbbell-bicep-exercises{
+.list-of-dumbbell-bicep-exercises {
     list-style-type: none;
     font-size: 20px;
 }
-.list-of-strength-machine-bicep-exercises{
+.list-of-strength-machine-bicep-exercises {
     list-style-type: none;
     font-size: 20px;
 }
-.list-of-dumbbell-tricep-exercises{
+.list-of-dumbbell-tricep-exercises {
     list-style-type: none;
     font-size: 20px;
 }
-.list-of-cable-machine-tricep-exercises{
+.list-of-cable-machine-tricep-exercises {
     list-style-type: none;
     font-size: 20px;
 }
-.list-of-strength-machine-tricep-exercises{
+.list-of-strength-machine-tricep-exercises {
     list-style-type: none;
     font-size: 20px;
 }
-.list-of-cardio-exercises{
+.list-of-cardio-exercises {
     list-style-type: none;
     font-size: 20px;
+}
+main {
+    padding-left: 40%;
 }
