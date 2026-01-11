@@ -124,4 +124,8 @@ main button {
     font-size: 80%;
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     background-color: white;
+    border: none;
+}
+main button:hover {
+    background-color: yellow;
 }
