@@ -130,6 +130,8 @@ aside button:hover {
 }
 main {
     padding-left: 80%;
+    overflow-y: scroll;
+    border: blue;
 }
 main button {
     height: 50px;
