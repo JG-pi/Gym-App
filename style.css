@@ -134,7 +134,7 @@ main {
     border: blue;
 }
 main button {
-    height: 50px;
+    height: 70px;
     font-size: 80%;
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     background-color: white;
@@ -142,4 +142,25 @@ main button {
 }
 main button:hover {
     background-color: whitesmoke;
+}
+.exercise-btn {
+    width: 100%;        /* Set buttons the same width as its parent (ul list) */
+    display: flex;      /* Make content to side by side instead of row by row */
+    align-items: center;
+    gap: 14px;      /* Gap of 14px between each element */
+    padding: 14px 16px;     /* 14px from top and bottom, 16px from left and right */
+    cursor: pointer;        /* Change cursor to a hand when hovering onto the button */
+}
+.exercise-btn:hover {
+    background-color: whitesmoke;       /* Hover effect */
+}
+.exercise-btn:active {
+    transform: scale(0.98);     /* Makes button shrink a little bit when being clicked */
+}
+.thumb {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
 }
