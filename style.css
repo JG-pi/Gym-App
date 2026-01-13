@@ -157,10 +157,21 @@ main button:hover {
 .exercise-btn:active {
     transform: scale(0.98);     /* Makes button shrink a little bit when being clicked */
 }
-.thumb {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    overflow: hidden;
+.thumb {        /* Editing the frame of the picture */
+    width: 64px;        /* Set container's width to 64px */
+    height: 64px;       /* Set container's height to 64px */
+    border-radius: 50%;    /* Circle that is half of the size of teh square */
+    overflow: hidden;       /* Crop the images ourside the circle */
+    border: 1px solid gold;
+    flex: 0 0 64px;     /* The .thumb should always stay at 64px wide and never shrink */
     background-color: white;
+}
+.thumb img {        /* Editing the actual picture */
+    width: 100%;        /* Be as wide as the parent (.thumb) */
+    height: 100%;       /* Be as tall as the parent (.thumb) */
+    object-fit: cover;      /* Fill the entire container */
+}
+.name {
+    font-size: 18px;
+    font-weight: 500;
 }
