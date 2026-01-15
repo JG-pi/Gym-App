@@ -20,7 +20,7 @@ aside {
     position: fixed;
     padding-left: 0px;
     background-color: white;
-    width: 200px;
+    width: 250px;
     height: 100vh;
 }
 aside button {
@@ -149,7 +149,7 @@ main button:hover {
     align-items: center;
     gap: 14px;      /* Gap of 14px between each element */
     padding: 14px 16px;     /* 14px from top and bottom, 16px from left and right */
-    cursor: pointer;        /* Change cursor to a hand when hovering onto the button */
+    cursor: pointer;       /* Change cursor to a hand when hovering onto the button */
 }
 .exercise-btn:hover {
     background-color: whitesmoke;       /* Hover effect */
@@ -174,4 +174,15 @@ main button:hover {
 .name {
     font-size: 18px;
     font-weight: 500;
+}
+.aside-btn {
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+}
+.aside-btn:hover {
+    background-color: whitesmoke;
+}
+.aside-btn:active{
+    transform: scale(0.98);
 }
