@@ -40,91 +40,7 @@ aside button:hover {
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 80px;
 }
-.list-of-barbell-chest-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-dumbbell-chest-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-smith-machine-chest-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-strength-machine-chest-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-barbell-back-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-dumbbell-back-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-cable-machine-back-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-strength-machine-back-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-barbell-leg-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-strength-machine-leg-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-barbell-shoulder-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-dumbbell-shoulder-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-cable-machine-shoulder-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-smith-machine-shoulder-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-strength-machine-shoulder-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-barbell-bicep-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-dumbbell-bicep-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-strength-machine-bicep-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-dumbbell-tricep-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-cable-machine-tricep-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-strength-machine-tricep-exercises {
-    list-style-type: none;
-    font-size: 20px;
-}
-.list-of-cardio-exercises {
+.exercise-list {
     list-style-type: none;
     font-size: 20px;
 }
@@ -153,6 +69,7 @@ main button:hover {
 }
 .exercise-btn:hover {
     background-color: whitesmoke;       /* Hover effect */
+    transform: scale(1.3);
 }
 .exercise-btn:active {
     transform: scale(0.98);     /* Makes button shrink a little bit when being clicked */
