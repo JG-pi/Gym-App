@@ -69,10 +69,10 @@ main button:hover {
 }
 .exercise-btn:hover {
     background-color: whitesmoke;       /* Hover effect */
-    transform: scale(1.3);
+    transform: scale(1.3);      /* Enlarges buttons while hovering */
 }
 .exercise-btn:active {
-    transform: scale(0.98);     /* Makes button shrink a little bit when being clicked */
+    transform: scale(1.2);     /* Makes button shrink a little bit when being clicked */
 }
 .thumb {        /* Editing the frame of the picture */
     width: 64px;        /* Set container's width to 64px */
@@ -97,9 +97,14 @@ main button:hover {
     cursor: pointer;
     height: 50px;
 }
+.list {
+    font-size: 18px;
+    font-weight: 500;
+}
 .aside-btn:hover {
     background-color: whitesmoke;
+    transform: scale(1.3);
 }
 .aside-btn:active{
-    transform: scale(0.98);
+    transform: scale(1.2);
 }
